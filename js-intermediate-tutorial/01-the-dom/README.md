@@ -42,4 +42,4 @@ var buttons = document.querySelectorAll(.btn);
 **querySelector** giống như **getElementById**, chỉ trả về một element trong **querySelectorAll** trả về một NodeList. Nếu có nhiều elements mà match với selection bạn truyền vào querySelector, thì element đầu tiên sẽ được trả về.
 
 - Trang kế: [Events and Callbacks]()
-- Trang trước: [JavaScript Intermediate Tutorial introduction]()
+- Trang trước: [JavaScript Intermediate Tutorial introduction](javascript-note/js-intermediate-tutorial/README.md)
