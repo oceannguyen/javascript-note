@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Title of the document</title>
+</head>
+
+<body>
+    <p id="article" >Content of the document......</p>
+</body>
+
+    <script>
+        var req = new XMLHttpRequest();
+        
+        req.onload = function(event) {
+            console.log(event);
+            document.getElementById("article").innerHTML = this.responseText;
+        };
+        
+        req.open('get', 'http://localhost:8080/ocean/cinema/categories/api/v1/citys', true);
+        req.send();
+        
+        
+        
+    </script>
+    
+</html>
