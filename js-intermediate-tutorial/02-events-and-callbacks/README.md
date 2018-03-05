@@ -20,7 +20,7 @@ button.addEventListener('click', handleClick);
 ```addEventListener``` là một method được thấy trên tất cả các DOM elements. Ở đây nó đang được gọi trên một element được lưu trong biến *button*. Tham số thứ nhất là tên của sự kiện (```click```) tham số thứ hai là **callback** function (```handleClick```).
 
 > Thật không may là, Internet Explorer không hỗ trợ ```addEventListener``` trước version 9. Thay vào đó là:
-```
+```javascript
 button.attachEvent('onclick', handleClick);
 ```
 > Thêm nữa là nó yêu cầu ```onclick```, không phải ```click```. Do vậy dẫn tới việc phát triển các thư viện như **jQuery** - giúp bạn không phải quan tâm đến cách lắng nghe sự kiện trên các trình duyệt khác nhau
