@@ -17,7 +17,7 @@ var button = document.querySelector('#big-button');
 button.addEventListener('click', handleClick);
 ```
 
-```javascript addEventListener``` là một method được thấy trên tất cả các DOM elements. Ở đây nó đang được gọi trên một element được lưu trong biến *button*. Tham số thứ nhất là tên của sự kiện (```click```) tham số thứ hai là **callback** function (```javascript handleClick```).
+```addEventListener``` là một method được thấy trên tất cả các DOM elements. Ở đây nó đang được gọi trên một element được lưu trong biến *button*. Tham số thứ nhất là tên của sự kiện (```click```) tham số thứ hai là **callback** function (```handleClick```).
 
 > Thật không may là, Internet Explorer không hỗ trợ ```addEventListener``` trước version 9. Thay vào đó là:
 ```
