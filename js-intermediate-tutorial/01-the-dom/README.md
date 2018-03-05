@@ -16,7 +16,7 @@ Thay đổi DOM bằng cách refer đến một element và thay đổi nó. Đ�
 #### By ID
 
 **document.getElementById** là phương thức lấy một element qua ID của nó
-```
+```javascript
 var pageHeader = document.getElementById('page-header');
 ```
 *page-header* element sau đó có thể được thao tác, chẳng hạn thay đổi size, color và khai báo xử lý sự kiện click, hover
@@ -35,7 +35,7 @@ Một cặp methods tiện lợi khác trong các modern browsers cho phép lấ
 - **document.querySelector**
 - **document.querySelectorAll**
 
-```
+```javascript
 var pageHeader = document.querySelector('#header');
 var buttons = document.querySelectorAll(.btn);
 ```
