@@ -5,7 +5,7 @@ Cho tới giờ bạn đã nắm được JavaScript căn bản với các kiể
 ### Contents
 - [The DOM](01-the-dom/README.md): What?
 - [Events and Callbacks](02-events-and-callbacks/README.md): Lập trình hướng sự kiện. Lắng nghe cho các sự kiện, và phản hồi với callback functions
-- [AJAX](): Asynchronous JavaScript And XML? What? Why?
+- [AJAX](03-ajax/README.md): Asynchronous JavaScript And XML? What? Why?
 - [JSON](): JavaScript Ojbect Notation?
 - [Scope]()
 - [jQuery](): Thư viện DOM dùng để làm gì và tại sao lại chọn jQuery?
