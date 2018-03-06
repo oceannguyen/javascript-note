@@ -23,7 +23,7 @@ Sau đó chỉ định một callback function sẽ được gọi khi dữ li�
 
 Tiếp theo chỉ định cách mà ta muốn lấy dữ liệu sử dụng ```req.open```. Tham số thứ nhất là HTTP method(GET, POST, PUT, etc). Tham số thứ 2 là URL để lấy dữ liệu. Tham số thứ 3 chỉ định liệu request là bất đồng bộ (***asynchronous***) - true, ***XMLHttpRequest*** được gửi đi HttpRequest tới Server và sau đó đoạn mã khác vẫn tiếp tục được thực thi cho đến khi response từ Server gửi về thì callback function được kích hoạt.
 
-![alt text]:(https://github.com/oceannguyen/javascript-note/edit/master/js-intermediate-tutorial/03-ajax/pic_ajax.png)
+![alt text](https://github.com/oceannguyen/javascript-note/edit/master/js-intermediate-tutorial/03-ajax/pic_ajax.png)
 
 Tham số ***asynchronous*** mặc định là false, do vậy khi thực thi code sẽ bị dừng lại cho đến khi dữ liệu được trả về từ Sever request - đây được gọi là synchronous (thường không được sử dụng). 
 
