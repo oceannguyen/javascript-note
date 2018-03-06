@@ -23,6 +23,8 @@ Sau đó chỉ định một callback function sẽ được gọi khi dữ li�
 
 Tiếp theo chỉ định cách mà ta muốn lấy dữ liệu sử dụng ```req.open```. Tham số thứ nhất là HTTP method(GET, POST, PUT, etc). Tham số thứ 2 là URL để lấy dữ liệu. Tham số thứ 3 chỉ định liệu request là bất đồng bộ (***asynchronous***) - true, ***XMLHttpRequest*** được gửi đi HttpRequest tới Server và sau đó đoạn mã khác vẫn tiếp tục được thực thi cho đến khi response từ Server gửi về thì callback function được kích hoạt.
 
+<div style="text-align:center"><img src="./README.md" /></div>
+
 Tham số ***asynchronous*** mặc định là false, do vậy khi thực thi code sẽ bị dừng lại cho đến khi dữ liệu được trả về từ Sever request - đây được gọi là synchronous (thường không được sử dụng). 
 
 > Sử dụng XMLHttpRequest bạn có thể load HTML, JSON, XML và plain text qua HTTP và HTTPS, nó cũng hỗ trợ các giao thực khác nữa như FTP và file. Nhìn chung, chúng rất hữu ích cho toàn bộ các tác vụ khi phát triển JavaScript apps.
