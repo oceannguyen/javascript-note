@@ -6,7 +6,7 @@ jQuery cũng tạo cho việc thực hiện các hành động trên nhiều ele
 
 Trong ví dụ dưới đây ```$('.note')``` chọn các elements có class là ```note``` trên trang và sau đó set giá trị background cho ```note``` thành màu đỏ và height là 100px.
 
-```jQuery
+```javascript
 $('.note').css('background', 'red').height(100);
 ```
 jQuery sử dụng cú pháp xâu chuỗi kết nối (neat chainable syntax) cho phép ta viết mã như trên. Bởi vì, với bất cứ phương thức cài đặt nào, jQuery cũng trả về hàm ```$()```. $ is a function that returns a jQuery wrapper around an element.
@@ -14,8 +14,8 @@ jQuery sử dụng cú pháp xâu chuỗi kết nối (neat chainable syntax) ch
 ### Getters and setters
 
 Ví dụ ở trên sử dụng ```.css``` và ```.height``` để set giá trị của element, nhưng methods trên cũng là **getters**. 
-```jQuery
-var currentHeight = $('.note').height()'
+```javascript
+var currentHeight = $('.note').height();
 var currentColor = $('.note').css('color');
 ```
 Nếu như bạn có nhiều hơn một element được chọn thì element đầu tiên sẽ được chọn.
@@ -28,9 +28,9 @@ Nếu như bạn có nhiều hơn một element được chọn thì element đ�
 
 Dưới đây là ví dụ. Chú ý rằng các biến mà dùng để lưu jQuery objects bắt đầu với **dollar**. Quy ước này giúp bạn và người đọc code của bạn hiểu rằng đó là một jQuery object.
 
-```jQuery
-var $header = $('header'),
-    $headerBoxes = $('.note', $header);
+```javascript
+var $header = $('header');
+var $headerBoxes = $('.note', $header);
 ```
 
 
