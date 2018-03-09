@@ -9,6 +9,6 @@ Cho tới giờ bạn đã nắm được JavaScript căn bản với các kiể
 - [JSON](04-json/README.md): JavaScript Ojbect Notation?
 - [Scope]()
 - [jQuery](05-jquery/README.md): Thư viện DOM dùng để làm gì và tại sao lại chọn jQuery?
-- [jQuery: DOM API](): $()
+- [jQuery: DOM API](07-jquery-dom/README.md): $()
 - [jQuery: AJAX](): $.get, $.post và $.ajax
 - [jQuery: Other Tricks](): DOMContentLoaded, Load, và Type Checking
