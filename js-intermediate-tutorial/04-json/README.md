@@ -27,7 +27,7 @@ Sau khi chuyển đối tượng JSON string, được kết quả ```{"make": "
 
 Chuyển JSON string sang JSON object, sử dụng method ```parse```
 ```javascript
-{"make": "McLaren", "model": "MP4-12C", "miles": 5023 }
+var car = JSON.parse(jsonString);
 ```
 Chuỗi có thể chuyển thành đối tượng JavaScript sử dụng ```JSON.parse.car```
 ```javascript
