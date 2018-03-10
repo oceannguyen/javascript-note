@@ -21,7 +21,7 @@ req.send();
 
 Sau đó chỉ định một callback function sẽ được gọi khi dữ liệu được load về. Nó truyền thông tin về event vào tham số đầu tiên.
 
-Tiếp theo chỉ định cách mà ta muốn lấy dữ liệu sử dụng ```req.open```. Tham số thứ nhất là HTTP method(GET, POST, PUT, etc). Tham số thứ 2 là URL để lấy dữ liệu. Tham số thứ 3 chỉ định liệu request là bất đồng bộ (***asynchronous***) - true, ***XMLHttpRequest*** được gửi đi HttpRequest tới Server và sau đó đoạn mã khác vẫn tiếp tục được thực thi cho đến khi response từ Server gửi về thì callback function được kích hoạt.
+Tiếp theo chỉ định cách mà ta muốn lấy dữ liệu sử dụng ```req.open```. Tham số thứ nhất là HTTP method(GET, POST, PUT, etc). Tham số thứ 2 là URL để lấy dữ liệu. Tham số thứ 3 chỉ định request là bất đồng bộ (***asynchronous***) - true, ***XMLHttpRequest*** được gửi đi HttpRequest tới Server và sau đó đoạn mã khác vẫn tiếp tục được thực thi cho đến khi response từ Server gửi về thì callback function được kích hoạt.
 
 <div align="center"><img src="pic_ajax.png"/></div>
 
@@ -30,4 +30,4 @@ Tham số ***asynchronous*** mặc định là false, do vậy khi thực thi co
 > Sử dụng XMLHttpRequest bạn có thể load HTML, JSON, XML và plain text qua HTTP và HTTPS, nó cũng hỗ trợ các giao thực khác nữa như FTP và file. Nhìn chung, chúng rất hữu ích cho toàn bộ các tác vụ khi phát triển JavaScript apps.
 
 ### AJAX and Libraries
-Kỹ thuật AJAX được phát triển cho đến mức bây giờ sinh ra các ứng dụng gọi là Single Page Applications.
+Kỹ thuật AJAX được phát triển cho đến bây giờ và đã xuất hiện các ứng dụng gọi là Single Page Applications.
