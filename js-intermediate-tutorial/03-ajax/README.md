@@ -1,6 +1,6 @@
 ## AJAX
 
-Trong những năm đầu phát triển web, để lấy nội dung mới trên một trang (bài viết, thông báo) bạn phải reload trang hoặc link trang tới khác. Rõ ràng điều này là không cần thiết phải để lấy một nội dung mới, vì việc reload lại trang rất thương tốn thời gian và chi phí khi ứng dụng lớn dần.
+Trong những năm đầu phát triển web, để lấy nội dung mới trên một trang (bài viết, thông báo) bạn phải reload trang hoặc link tới trang khác. Rõ ràng điều này là không cần thiết phải để lấy một nội dung mới, vì việc reload lại trang rất thương tốn thời gian và chi phí khi ứng dụng lớn dần.
 
 Để đạt được điều này, có một tool gọi là ***XML HTTP Request*** được sử dụng. Và các ứng dụng web mà sử dụng tool này được gọi là ***AJAX (Asynchronous JavaScript and XML) apps***
 
