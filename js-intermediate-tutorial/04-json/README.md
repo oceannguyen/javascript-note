@@ -1,6 +1,6 @@
 ## JSON
 
-JSON - JavaScript Object Notation là một các quy tắc định dạng văn bản để lưu trữ và chuyển đổi dữ liệu trong máy và theo cách mà con người có thể đọc được. Nó trông giống như cú pháp JavaScript ở dạng chuỗi (JSON bắt nguồn từ đó).
+JSON - JavaScript Object Notation là một quy tắc định dạng văn bản để lưu trữ và chuyển đổi dữ liệu trong máy và theo cách mà con người có thể đọc được. Nó trông giống như cú pháp JavaScript ở dạng chuỗi (JSON bắt nguồn từ đó).
 
 Nhưng JSON không là JavaScript. Nó là một ngôn ngữ khác biệt với các thông số riêng, nó đóng vai trò lớn trong phát triển JavaScript
 
