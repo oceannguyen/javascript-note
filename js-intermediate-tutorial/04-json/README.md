@@ -16,7 +16,7 @@ JSON đang tiếp nhận từ XML là định dạng chuyển đổi dữ liệu
 ### Sử dụng JSON
 
 Chuyển dữ liệu sang JSON string, sử dụng method ```stringify```
-```
+```javascript
 var jsonString = JSON.stringify({
     make: "McLaren",
     model: "MP4-12C",
@@ -26,11 +26,11 @@ var jsonString = JSON.stringify({
 Sau khi chuyển đối tượng JSON string, được kết quả ```{"make": "McLaren", "model": "MP4-12C", "miles": 5023 }```
 
 Chuyển JSON string sang JSON object, sử dụng method ```parse```
-```
+```javascript
 {"make": "McLaren", "model": "MP4-12C", "miles": 5023 }
 ```
 Chuỗi có thể chuyển thành đối tượng JavaScript sử dụng ```JSON.parse.car```
-```
+```javascript
 car.model = "P1";
 ```
 
