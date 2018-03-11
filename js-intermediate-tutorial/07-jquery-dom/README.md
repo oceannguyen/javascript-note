@@ -22,7 +22,7 @@ Nếu như bạn có nhiều hơn một element được chọn thì element đ�
 
 ### Context
 
-Đôi khi rất hữu ích khi ta giới hạn vùng DOM để chọn element. The area of the DOM used is also known as a different context.
+Đôi khi rất hữu ích khi ta giới hạn vùng DOM để chọn element. *The area of the DOM used is also known as a different* context.
 
 Để yêu cầu jQuery nơi nào bạn muốn chọn, bạn truyền tham số thứ 2: có thể là **DOM element**, **string selector** hoặc **jQuery object**. jQuery sẽ tìm kiếm trong phạm vi context đó theo sự lựa chọn của bạn.
 
