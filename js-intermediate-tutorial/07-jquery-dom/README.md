@@ -9,7 +9,7 @@ Trong ví dụ dưới đây ```$('.note')``` chọn các elements có class là
 ```javascript
 $('.note').css('background', 'red').height(100);
 ```
-jQuery sử dụng cú pháp xâu chuỗi kết nối (neat chainable syntax) cho phép ta viết mã như trên. Bởi vì, với bất cứ phương thức cài đặt nào, jQuery cũng trả về hàm ```$()```. $ is a function that returns a jQuery wrapper around an element.
+jQuery sử dụng cú pháp xâu chuỗi kết nối (neat chainable syntax) cho phép ta viết mã như trên. Bởi vì, với bất cứ phương thức cài đặt nào, *jQuery returns the same thing as the selector function (“$”) does: $ is a function that returns a jQuery wrapper around an element*.
 
 ### Getters and setters
 
