@@ -10,5 +10,6 @@ Cho tới giờ bạn đã nắm được JavaScript căn bản với các kiể
 - [Scope]()
 - [jQuery](06-jquery/README.md): Thư viện DOM dùng để làm gì và tại sao lại chọn jQuery?
 - [jQuery: DOM API](07-jquery-dom/README.md): $()
-- [jQuery: AJAX](): $.get, $.post và $.ajax
-- [jQuery: Other Tricks](): DOMContentLoaded, Load, và Type Checking
+- [jQuery: AJAX](08-jquery-ajax/README.md): $.get, $.post và $.ajax
+- [jQuery: Other Tricks](09-jquery-other-tricks/README.md): DOMContentLoaded, Load, và Type Checking
+- [The BOM](10-js-bom/README.md): What?
